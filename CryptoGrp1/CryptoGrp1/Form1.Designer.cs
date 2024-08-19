@@ -33,29 +33,35 @@
             Encrypt = new Button();
             Decrypt = new Button();
             PasswordTextBox = new TextBox();
+            ClearDataBtn = new Button();
             SuspendLayout();
             // 
             // InputTextBox
             // 
-            InputTextBox.Location = new Point(28, 65);
+            InputTextBox.Location = new Point(32, 87);
+            InputTextBox.Margin = new Padding(3, 4, 3, 4);
             InputTextBox.Multiline = true;
             InputTextBox.Name = "InputTextBox";
-            InputTextBox.Size = new Size(230, 113);
+            InputTextBox.PlaceholderText = "Input..";
+            InputTextBox.Size = new Size(262, 149);
             InputTextBox.TabIndex = 0;
             // 
             // ResultatTextBox
             // 
-            ResultatTextBox.Location = new Point(548, 65);
+            ResultatTextBox.Location = new Point(626, 87);
+            ResultatTextBox.Margin = new Padding(3, 4, 3, 4);
             ResultatTextBox.Multiline = true;
             ResultatTextBox.Name = "ResultatTextBox";
-            ResultatTextBox.Size = new Size(230, 113);
+            ResultatTextBox.PlaceholderText = "Output..";
+            ResultatTextBox.Size = new Size(262, 149);
             ResultatTextBox.TabIndex = 1;
             // 
             // Encrypt
             // 
-            Encrypt.Location = new Point(61, 284);
+            Encrypt.Location = new Point(70, 379);
+            Encrypt.Margin = new Padding(3, 4, 3, 4);
             Encrypt.Name = "Encrypt";
-            Encrypt.Size = new Size(155, 64);
+            Encrypt.Size = new Size(177, 85);
             Encrypt.TabIndex = 2;
             Encrypt.Text = "Encrypt";
             Encrypt.UseVisualStyleBackColor = true;
@@ -63,9 +69,10 @@
             // 
             // Decrypt
             // 
-            Decrypt.Location = new Point(588, 284);
+            Decrypt.Location = new Point(672, 379);
+            Decrypt.Margin = new Padding(3, 4, 3, 4);
             Decrypt.Name = "Decrypt";
-            Decrypt.Size = new Size(155, 64);
+            Decrypt.Size = new Size(177, 85);
             Decrypt.TabIndex = 3;
             Decrypt.Text = "Decrypt";
             Decrypt.UseVisualStyleBackColor = true;
@@ -73,21 +80,37 @@
             // 
             // PasswordTextBox
             // 
-            PasswordTextBox.Location = new Point(341, 48);
+            PasswordTextBox.Location = new Point(390, 144);
+            PasswordTextBox.Margin = new Padding(3, 4, 3, 4);
             PasswordTextBox.Name = "PasswordTextBox";
-            PasswordTextBox.Size = new Size(100, 23);
+            PasswordTextBox.PasswordChar = '*';
+            PasswordTextBox.PlaceholderText = "Password";
+            PasswordTextBox.Size = new Size(114, 27);
             PasswordTextBox.TabIndex = 4;
+            PasswordTextBox.TextChanged += PasswordTextBox_TextChanged;
+            // 
+            // ClearDataBtn
+            // 
+            ClearDataBtn.Location = new Point(390, 312);
+            ClearDataBtn.Name = "ClearDataBtn";
+            ClearDataBtn.Size = new Size(114, 27);
+            ClearDataBtn.TabIndex = 5;
+            ClearDataBtn.Text = "Clear Data";
+            ClearDataBtn.UseVisualStyleBackColor = true;
+            ClearDataBtn.Click += ClearDataBtn_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
+            Controls.Add(ClearDataBtn);
             Controls.Add(PasswordTextBox);
             Controls.Add(Decrypt);
             Controls.Add(Encrypt);
             Controls.Add(ResultatTextBox);
             Controls.Add(InputTextBox);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -101,5 +124,6 @@
         private Button Encrypt;
         private Button Decrypt;
         private TextBox PasswordTextBox;
+        private Button ClearDataBtn;
     }
 }

@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/CryptoGrp1/CryptoGrp1.csproj": {}
+    "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\CryptoGrp1\\CryptoGrp1.csproj": {}
   },
   "projects": {
-    "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/CryptoGrp1/CryptoGrp1.csproj": {
+    "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\CryptoGrp1\\CryptoGrp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/CryptoGrp1/CryptoGrp1.csproj",
+        "projectUniqueName": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\CryptoGrp1\\CryptoGrp1.csproj",
         "projectName": "CryptoGrp1",
-        "projectPath": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/CryptoGrp1/CryptoGrp1.csproj",
-        "packagesPath": "/home/omar/.nuget/packages/",
-        "outputPath": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/CryptoGrp1/obj/",
+        "projectPath": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\CryptoGrp1\\CryptoGrp1.csproj",
+        "packagesPath": "C:\\Users\\ahmma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\CryptoGrp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/omar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ahmma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/DbHandlerGrp1/DbHandlerGrp1.csproj": {
-                "projectPath": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/DbHandlerGrp1/DbHandlerGrp1.csproj"
+              "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\DbHandlerGrp1\\DbHandlerGrp1.csproj": {
+                "projectPath": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\DbHandlerGrp1\\DbHandlerGrp1.csproj"
               }
             }
           }
@@ -36,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,28 +89,38 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/DbHandlerGrp1/DbHandlerGrp1.csproj": {
+    "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\DbHandlerGrp1\\DbHandlerGrp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/DbHandlerGrp1/DbHandlerGrp1.csproj",
+        "projectUniqueName": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\DbHandlerGrp1\\DbHandlerGrp1.csproj",
         "projectName": "DbHandlerGrp1",
-        "projectPath": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/DbHandlerGrp1/DbHandlerGrp1.csproj",
-        "packagesPath": "/home/omar/.nuget/packages/",
-        "outputPath": "/home/omar/Desktop/Desktop-omar/SkolanTvå/Grp1Work/CryptoGrp1/DbHandlerGrp1/obj/",
+        "projectPath": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\DbHandlerGrp1\\DbHandlerGrp1.csproj",
+        "packagesPath": "C:\\Users\\ahmma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-Säkerhet\\CryptoGrp1\\DbHandlerGrp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/omar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ahmma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -111,6 +133,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -154,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

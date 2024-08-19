@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DbHandlerGrp1.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20240819052443_version0.1")]
+    [Migration("20240819104910_version0.1")]
     partial class version01
     {
         /// <inheritdoc />

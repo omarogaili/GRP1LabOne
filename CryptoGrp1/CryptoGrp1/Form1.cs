@@ -13,6 +13,7 @@ using System;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Configuration;
 
 
 namespace CryptoGrp1
@@ -23,7 +24,7 @@ namespace CryptoGrp1
         private AppContext _context;
         private Password passDb;
         private byte[] pepper = new byte[16];//Create a salt array with 16 p.
-        private byte[]iv = new byte[16]; //Create a IV array with 16 p.
+        private byte[] iv = new byte[16]; //Create a IV array with 16 p.
 
 
 
@@ -57,8 +58,8 @@ namespace CryptoGrp1
                 rng.GetBytes(pepper);
                 rng.GetBytes(iv);
             }
-                                
-            Rfc2898DeriveBytes passwordBytes = new Rfc2898DeriveBytes(PasswordTextBox.Text, pepper,20);
+
+            Rfc2898DeriveBytes passwordBytes = new Rfc2898DeriveBytes(PasswordTextBox.Text, pepper, 20);
             Aes encryptor = Aes.Create();
             encryptor.Key = passwordBytes.GetBytes(32);
             encryptor.IV = iv;
@@ -101,7 +102,7 @@ namespace CryptoGrp1
             pepper = Convert.FromBase64String(passDb.Salt);
             byte[] CryptedText = Convert.FromBase64String(passDb.EncryptedText);
             iv = Convert.FromBase64String(passDb.IV);
-            Rfc2898DeriveBytes passwordBytes = new Rfc2898DeriveBytes(PasswordTextBox.Text,pepper ,20);
+            Rfc2898DeriveBytes passwordBytes = new Rfc2898DeriveBytes(PasswordTextBox.Text, pepper, 20);
             Aes encryptor = Aes.Create();
             encryptor.Key = passwordBytes.GetBytes(32);
             encryptor.IV = iv;
@@ -115,6 +116,25 @@ namespace CryptoGrp1
                 InputTextBox.Text = Encoding.UTF8.GetString(ms.ToArray());
                 ResultatTextBox.Clear();
             }
+        }
+
+        private void PasswordTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClearDataBtn_Click(object sender, EventArgs e)
+        {
+            // Remove all entries from the Passwords table
+            _context.Passwords.RemoveRange(_context.Passwords);
+            _context.SaveChanges();
+
+            // Clear the input and output text boxes
+            InputTextBox.Clear();
+            PasswordTextBox.Clear();
+            ResultatTextBox.Clear();
+
+            MessageBox.Show("All data has been cleared from the database.");
         }
     }
 }

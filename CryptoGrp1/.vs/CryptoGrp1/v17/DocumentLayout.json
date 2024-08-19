@@ -1,38 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\",
+  "WorkspaceRootPath": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ogail\\desktop\\grp1work\\cryptogrp1\\dbhandlergrp1\\migrations\\20240819052443_version0.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|solutionrelative:dbhandlergrp1\\migrations\\20240819052443_version0.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ogail\\desktop\\grp1work\\cryptogrp1\\dbhandlergrp1\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|solutionrelative:dbhandlergrp1\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|c:\\users\\ogail\\desktop\\grp1work\\cryptogrp1\\cryptogrp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|c:\\users\\ahmma\\onedrive\\desktop\\work place school\\it-s\u00E4kerhet\\cryptogrp1\\cryptogrp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|solutionrelative:cryptogrp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ogail\\desktop\\grp1work\\cryptogrp1\\dbhandlergrp1\\username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|solutionrelative:dbhandlergrp1\\username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\cryptogrp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\cryptogrp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|solutionrelative:cryptogrp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ogail\\desktop\\grp1work\\cryptogrp1\\dbhandlergrp1\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\cryptogrp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|solutionrelative:cryptogrp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ahmma\\onedrive\\desktop\\work place school\\it-s\u00E4kerhet\\cryptogrp1\\dbhandlergrp1\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|solutionrelative:dbhandlergrp1\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|c:\\users\\ogail\\desktop\\grp1work\\cryptogrp1\\cryptogrp1\\cheting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|solutionrelative:cryptogrp1\\cheting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ahmma\\onedrive\\desktop\\work place school\\it-s\u00E4kerhet\\cryptogrp1\\dbhandlergrp1\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|solutionrelative:dbhandlergrp1\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\cryptogrp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD9336DD-0A74-46A8-ADD4-203BD41E18CE}|CryptoGrp1\\CryptoGrp1.csproj|solutionrelative:cryptogrp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|c:\\users\\ahmma\\onedrive\\desktop\\work place school\\it-s\u00E4kerhet\\cryptogrp1\\dbhandlergrp1\\username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409BFCC0-05E4-4699-B63C-6D5E340D8A7B}|DbHandlerGrp1\\DbHandlerGrp1.csproj|solutionrelative:dbhandlergrp1\\username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +34,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240819052443_version0.1.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\Migrations\\20240819052443_version0.1.cs",
-              "RelativeDocumentMoniker": "DbHandlerGrp1\\Migrations\\20240819052443_version0.1.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\Migrations\\20240819052443_version0.1.cs",
-              "RelativeToolTip": "DbHandlerGrp1\\Migrations\\20240819052443_version0.1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\DbHandlerGrp1\\AppContext.cs",
+              "RelativeDocumentMoniker": "DbHandlerGrp1\\AppContext.cs",
+              "ToolTip": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\DbHandlerGrp1\\AppContext.cs",
+              "RelativeToolTip": "DbHandlerGrp1\\AppContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T05:24:44.148Z",
+              "WhenOpened": "2024-08-17T19:32:22.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserName.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\UserName.cs",
-              "RelativeDocumentMoniker": "DbHandlerGrp1\\UserName.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\UserName.cs",
-              "RelativeToolTip": "DbHandlerGrp1\\UserName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T14:21:44.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppContext.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\AppContext.cs",
-              "RelativeDocumentMoniker": "DbHandlerGrp1\\AppContext.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\AppContext.cs",
-              "RelativeToolTip": "DbHandlerGrp1\\AppContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBEAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:32:22.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogIn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\CryptoGrp1\\LogIn.cs",
-              "RelativeDocumentMoniker": "CryptoGrp1\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\SoftwareEngingeeringTwo\\CryptoGrp1\\CryptoGrp1\\LogIn.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Admin\\OneDrive\\Desktop\\SoftwareEngingeeringTwo\\CryptoGrp1\\CryptoGrp1\\LogIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:46:16.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cheting.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\CryptoGrp1\\Cheting.cs",
-              "RelativeDocumentMoniker": "CryptoGrp1\\Cheting.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\CryptoGrp1\\Cheting.cs",
-              "RelativeToolTip": "CryptoGrp1\\Cheting.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAiwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:20:15.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Password.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\Password.cs",
+              "DocumentMoniker": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\DbHandlerGrp1\\Password.cs",
               "RelativeDocumentMoniker": "DbHandlerGrp1\\Password.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\DbHandlerGrp1\\Password.cs",
+              "ToolTip": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\DbHandlerGrp1\\Password.cs",
               "RelativeToolTip": "DbHandlerGrp1\\Password.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:19:59.082Z"
+              "WhenOpened": "2024-08-17T18:19:59.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\CryptoGrp1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\Form1.cs",
               "RelativeDocumentMoniker": "CryptoGrp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\CryptoGrp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\Form1.cs",
               "RelativeToolTip": "CryptoGrp1\\Form1.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwEUAAAApAAAAAAAAAA==",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAQwIIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T18:14:07.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ogail\\Desktop\\Grp1Work\\CryptoGrp1\\CryptoGrp1\\Form1.cs",
-              "RelativeDocumentMoniker": "CryptoGrp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\ogail\\Desktop\\ProjectIT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\ProjectIT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\Form1.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "LogIn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\LogIn.cs",
+              "RelativeDocumentMoniker": "CryptoGrp1\\LogIn.cs",
+              "ToolTip": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\LogIn.cs [Design]",
+              "RelativeToolTip": "CryptoGrp1\\LogIn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T18:09:35.15Z"
+              "WhenOpened": "2024-08-17T18:46:16.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\Form1.cs",
+              "RelativeDocumentMoniker": "CryptoGrp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\CryptoGrp1\\Form1.cs [Design]",
+              "RelativeToolTip": "CryptoGrp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:09:35.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserName.cs",
+              "DocumentMoniker": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\DbHandlerGrp1\\UserName.cs",
+              "RelativeDocumentMoniker": "DbHandlerGrp1\\UserName.cs",
+              "ToolTip": "C:\\Users\\ahmma\\OneDrive\\Desktop\\work place school\\IT-S\u00E4kerhet\\CryptoGrp1\\DbHandlerGrp1\\UserName.cs",
+              "RelativeToolTip": "DbHandlerGrp1\\UserName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T14:21:44.211Z",
+              "EditorCaption": ""
             }
           ]
         }

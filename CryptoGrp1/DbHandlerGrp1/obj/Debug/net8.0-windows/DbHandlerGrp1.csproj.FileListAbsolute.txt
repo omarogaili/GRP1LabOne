@@ -42,3 +42,18 @@ C:\Users\ogail\Desktop\Grp1Work\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-window
 C:\Users\ogail\Desktop\Grp1Work\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.pdb
 C:\Users\ogail\Desktop\Grp1Work\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.genruntimeconfig.cache
 C:\Users\ogail\Desktop\Grp1Work\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\ref\DbHandlerGrp1.dll
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\bin\Debug\net8.0-windows\DbHandlerGrp1.deps.json
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\bin\Debug\net8.0-windows\DbHandlerGrp1.runtimeconfig.json
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\bin\Debug\net8.0-windows\DbHandlerGrp1.dll
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\bin\Debug\net8.0-windows\DbHandlerGrp1.pdb
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.csproj.AssemblyReference.cache
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.AssemblyInfoInputs.cache
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.AssemblyInfo.cs
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.csproj.CoreCompileInputs.cache
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.sourcelink.json
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.dll
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\refint\DbHandlerGrp1.dll
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.pdb
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\DbHandlerGrp1.genruntimeconfig.cache
+C:\Users\ahmma\OneDrive\Desktop\work place school\IT-Säkerhet\CryptoGrp1\DbHandlerGrp1\obj\Debug\net8.0-windows\ref\DbHandlerGrp1.dll
