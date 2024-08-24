@@ -1,0 +1,7 @@
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\bin\Debug\lab2brute-force.exe.config
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\bin\Debug\lab2brute-force.exe
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\bin\Debug\lab2brute-force.pdb
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\obj\Debug\lab2brute-force.csproj.AssemblyReference.cache
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\obj\Debug\lab2brute-force.csproj.CoreCompileInputs.cache
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\obj\Debug\lab2brute-force.exe
+C:\Users\46707\Documents\lab2brute-force\lab2brute-force\lab2brute-force\obj\Debug\lab2brute-force.pdb
