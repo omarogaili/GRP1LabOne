@@ -57,7 +57,7 @@ namespace InjectionInloggning
             string database = "sqlinkectexample";
 
             string dbUser = "root";
-            string dbPass = "Delzar_1985!";
+            string dbPass = "******";
 
             string connString = $"SERVER={server};DATABASE={database};UID={dbUser};PASSWORD={dbPass};";
 
@@ -125,5 +125,12 @@ namespace InjectionInloggning
         {
 
         }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+
     }
 }
