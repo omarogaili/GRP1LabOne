@@ -14,9 +14,9 @@ To start the Program you need to follow the steps below:
 omar' or 1=1--
 ``` 
 
-🛠️ Solution for the Project Weakness:
-   # Solution One:
+# 🛠️  Solution for the Project Weakness:
+   ## Solution One:
     Parameterized queries This is the solution we chose to address the problem in this project. You can see this in the code on line 43, where we used slugName and slugPass. These are then modified by using the .ygbParameters.AddWithValue() function to pass the actual user input values to search the database.
     
-   # Solution Two: 
+    ## Solution Two: 
     we have added also an validation methods that validate if the user have entered an email address or a telephone number to sign in.  
