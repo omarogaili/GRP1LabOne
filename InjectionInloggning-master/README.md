@@ -16,8 +16,8 @@ omar' or 1=1--
 
 # 🛠️  Solution for the Project Weakness:
    ## Solution One:
-    Parameterized queries This is the solution we chose to address the problem in this project. You can see this in the code on line 43, where we used slugName and slugPass. These are then modified by using the .ygbParameters.AddWithValue() function to pass the actual user input values to search the database.
+   Parameterized queries This is the solution we chose to address the problem in this project. You can see this in the code on line 43, where we used slugName and slugPass. These are then modified by using the .ygbParameters.AddWithValue() function to pass the actual user input values to search the database.
     
    ## Solution Two: 
-    We also added validation methods to check if the user has entered an email address or a telephone number to sign in.
+   We also added validation methods to check if the user has entered an email address or a telephone number to sign in.
 
