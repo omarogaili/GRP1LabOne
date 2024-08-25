@@ -26,7 +26,7 @@ namespace InjectionInloggning
             string database = "sqlinkectexample";
 
             string dbUser = "root";
-            string dbPass = "OI2018E19N23?!";
+            string dbPass = "*********";
 
             /* what i need to do is to create a query and save it in a variable and use it later to excute the command  without using the user input*/
             string connString = $"SERVER={server};DATABASE={database};UID={dbUser};PASSWORD={dbPass};";
