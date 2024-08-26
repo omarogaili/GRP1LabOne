@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoGrp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bb4fe2b8ae4eedac5f3ae22b0b45eda0178ac93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2526e3b77469fe5a6ea86e24694cb251026ea8b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoGrp1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoGrp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

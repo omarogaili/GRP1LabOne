@@ -120,17 +120,5 @@ namespace InjectionInloggning
         {
             Inloggning();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-
     }
 }
