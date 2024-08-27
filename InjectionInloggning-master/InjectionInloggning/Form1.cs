@@ -34,9 +34,9 @@ namespace InjectionInloggning
         private void Inloggning()
         {
             string server = "localhost";
-            string database = "sqlinkectexample";
+            string database = "********";
             string dbUser = "root";
-            string dbPass = "Delzar_1985!";
+            string dbPass = "*********";
             string connString = $"SERVER={server};DATABASE={database};UID={dbUser};PASSWORD={dbPass};";
             MySqlConnection conn = new MySqlConnection(connString);
 
@@ -86,6 +86,11 @@ namespace InjectionInloggning
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
 
         }

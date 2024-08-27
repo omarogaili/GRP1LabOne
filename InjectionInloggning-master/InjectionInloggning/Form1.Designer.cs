@@ -44,7 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(34, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.Size = new System.Drawing.Size(130, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username:";
             // 
@@ -53,7 +53,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 20);
+            this.label2.Size = new System.Drawing.Size(126, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password:";
             // 
@@ -61,14 +61,14 @@
             // 
             this.txtUser.Location = new System.Drawing.Point(148, 34);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(291, 26);
+            this.txtUser.Size = new System.Drawing.Size(291, 35);
             this.txtUser.TabIndex = 2;
             // 
             // txtPass
             // 
             this.txtPass.Location = new System.Drawing.Point(148, 89);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(291, 26);
+            this.txtPass.Size = new System.Drawing.Size(291, 35);
             this.txtPass.TabIndex = 3;
             // 
             // button1
@@ -86,7 +86,7 @@
             this.lblStatus.AutoSize = true;
             this.lblStatus.Location = new System.Drawing.Point(38, 285);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(114, 20);
+            this.lblStatus.Size = new System.Drawing.Size(170, 29);
             this.lblStatus.TabIndex = 5;
             this.lblStatus.Text = "Du är utloggad";
             // 
@@ -95,19 +95,19 @@
             this.lblQuerry.AutoSize = true;
             this.lblQuerry.Location = new System.Drawing.Point(38, 148);
             this.lblQuerry.Name = "lblQuerry";
-            this.lblQuerry.Size = new System.Drawing.Size(76, 20);
+            this.lblQuerry.Size = new System.Drawing.Size(118, 29);
             this.lblQuerry.TabIndex = 6;
             this.lblQuerry.Text = "sqlQuerry";
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            //this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1090, 407);
             this.Controls.Add(this.lblQuerry);
@@ -121,6 +121,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
