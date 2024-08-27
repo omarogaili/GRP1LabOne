@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,33 +8,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using System.Text.RegularExpressions;
-
-using System.Security.Cryptography;
 
 namespace InjectionInloggning
 {
     public partial class Form1 : Form
     {
+        private bool IsValidEmail(string email)
+        {
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";  // Kontrollerar e-posten
+            return Regex.IsMatch(email, emailPattern);
+        }
 
+        private bool IsValidPhoneNumber(string phoneNumber)
+        {
+            string phonePattern = @"^\d{10,15}$";  // Kontrollerar att telefonnumret är 10-15 siffror långt
+            return Regex.IsMatch(phoneNumber, phonePattern);
+        }
 
-
-
-    private bool IsValidEmail(string email)
-    {
-        string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";  // kontorllera emailen
-        return Regex.IsMatch(email, emailPattern);
-    }
-
-    private bool IsValidPhoneNumber(string phoneNumber)
-    {
-        string phonePattern = @"^\d{10,15}$";  // kontrollerar att för telefonnummer med 10 siffror elle 15 siffror for utlandska nummer
-        return Regex.IsMatch(phoneNumber, phonePattern);
-    }
-
-
-    public Form1()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -43,15 +35,12 @@ namespace InjectionInloggning
         {
             string server = "localhost";
             string database = "sqlinkectexample";
-
             string dbUser = "root";
-            string dbPass = "******";
-
+            string dbPass = "Delzar_1985!";
             string connString = $"SERVER={server};DATABASE={database};UID={dbUser};PASSWORD={dbPass};";
-
             MySqlConnection conn = new MySqlConnection(connString);
 
-            //Hämta data från textfält
+            // Hämta data från textfält
             string user = txtUser.Text;
             string pass = txtPass.Text;
 
@@ -61,31 +50,21 @@ namespace InjectionInloggning
                 lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
                 return;
             }
-            if (!IsValidPhoneNumber(user))
-            {
-                lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
-                return;
-            }
 
-            //Bygger upp SQL querry 
-            string sqlQuerry = "SELECT * FROM users WHERE users_username = @user AND users_password = @pass";
-            MySqlCommand cmd = new MySqlCommand(sqlQuerry, conn);
+            // Bygg upp SQL-query utan hashning
+            string sqlQuery = "SELECT * FROM users WHERE users_username = @user AND users_password = @pass";
+            MySqlCommand cmd = new MySqlCommand(sqlQuery, conn);
             cmd.Parameters.AddWithValue("@user", user);
-            cmd.Parameters.AddWithValue("@pass", pass);
+            cmd.Parameters.AddWithValue("@pass", pass); // Använd lösenord direkt, utan hashning
+            lblQuerry.Text = sqlQuery;
 
-
-
-            lblQuerry.Text = sqlQuerry;
-
-
-            //Exekverar querry
+            // Exekvera query
             try
             {
                 conn.Open();
-
                 MySqlDataReader reader = cmd.ExecuteReader();
 
-                //Kontrollerar resultatet
+                // Kontrollera resultatet
                 if (reader.Read())
                     lblStatus.Text = "Du har loggat in";
                 else
@@ -94,18 +73,21 @@ namespace InjectionInloggning
             catch (Exception e)
             {
                 MessageBox.Show(e.Message);
-            } 
+            }
             finally
             {
                 conn.Close();
             }
-
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Inloggning();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
