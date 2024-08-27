@@ -18,32 +18,20 @@ namespace InjectionInloggning
     public partial class Form1 : Form
     {
 
-        private string HashPassword(string password)
-        {
-            using (SHA256 sha256 = SHA256.Create())
-            {
-                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                StringBuilder builder = new StringBuilder();
-                for (int i = 0; i < bytes.Length; i++)
-                {
-                    builder.Append(bytes[i].ToString("x2"));
-                }
-                return builder.ToString();
-            }
-        }
 
 
-    //    private bool IsValidEmail(string email)
-    //{
-    //    string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";  // kontorllera emailen
-    //    return Regex.IsMatch(email, emailPattern);
-    //}
 
-    //private bool IsValidPhoneNumber(string phoneNumber)
-    //{
-    //    string phonePattern = @"^\d{10,15}$";  // kontrollerar att för telefonnummer med 10 siffror elle 15 siffror for utlandska nummer
-    //    return Regex.IsMatch(phoneNumber, phonePattern);
-    //}
+    private bool IsValidEmail(string email)
+    {
+        string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";  // kontorllera emailen
+        return Regex.IsMatch(email, emailPattern);
+    }
+
+    private bool IsValidPhoneNumber(string phoneNumber)
+    {
+        string phonePattern = @"^\d{10,15}$";  // kontrollerar att för telefonnummer med 10 siffror elle 15 siffror for utlandska nummer
+        return Regex.IsMatch(phoneNumber, phonePattern);
+    }
 
 
     public Form1()
@@ -68,23 +56,22 @@ namespace InjectionInloggning
             string pass = txtPass.Text;
 
             // Validera att användarnamnet är en e-postadress eller telefonnummer
-            //if (!IsValidEmail(user) && !IsValidPhoneNumber(user))
-            //{
-            //    lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
-            //    return;
-            //}
-            //if (!IsValidPhoneNumber(user))
-            //{
-            //    lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
-            //    return;
-            //}
+            if (!IsValidEmail(user) && !IsValidPhoneNumber(user))
+            {
+                lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
+                return;
+            }
+            if (!IsValidPhoneNumber(user))
+            {
+                lblStatus.Text = "Användarnamnet måste vara en giltig e-postadress eller telefonnummer.";
+                return;
+            }
 
             //Bygger upp SQL querry 
-            string hashedPass = HashPassword(pass);
             string sqlQuerry = "SELECT * FROM users WHERE users_username = @user AND users_password = @pass";
             MySqlCommand cmd = new MySqlCommand(sqlQuerry, conn);
             cmd.Parameters.AddWithValue("@user", user);
-            cmd.Parameters.AddWithValue("@pass", hashedPass);
+            cmd.Parameters.AddWithValue("@pass", pass);
 
 
 
